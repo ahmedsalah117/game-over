@@ -291,9 +291,9 @@ function Navbar() {
         </div>
 
         <div className={classes.buttonsHolder}>
-          <button className={classes.joinFreeBtn}>
-            <Link to="/register">Join Free</Link>
-          </button>
+          <Link to="/register">
+            <button className={classes.joinFreeBtn}>Join Free</button>
+          </Link>
         </div>
       </div>
     </nav>

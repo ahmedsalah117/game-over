@@ -75,14 +75,11 @@
 }
 
 .joinFreeBtn:hover {
-  /* color: white; */
+  color: white;
   background-color: #4799eb;
 }
 
-.joinFreeBtn a {
-  text-decoration: none;
-  color: #4799eb;
-}
+
 
 .joinFreeBtn:hover a {
   color: white;
