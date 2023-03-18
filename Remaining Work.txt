@@ -7,8 +7,8 @@
 - create the context " done "
 - create a protected route "done"
 - Add the Error page " done "
-- Do not forget to add the website title at the end of the project & the logo "problem with the logo"
+- Do not forget to add the website title at the end of the project & the logo "problem with the logo" " done "
 - Also use react helmet " done "
-- Check how to freeze the browser back button
-- Check the useNavigation hook to apply page loading while navigating betweeen pages
-- Upload on Github
+- Check how to freeze the browser back button "done"
+- Check the useNavigation hook to apply page loading while navigating betweeen pages "done"
+- Upload on Github "done"

@@ -9,7 +9,6 @@ function Navbar() {
 
   function logOutHandler() {
     localStorage.removeItem("userToken");
-    console.log("before navigation");
 
     navigate("/login");
   }
@@ -146,7 +145,7 @@ function Navbar() {
 
         <div className={classes.logOutBtnContainer}>
           <button onClick={logOutHandler} className={classes.LogOutBtn}>
-            Log out{" "}
+            Log out
           </button>
         </div>
 
@@ -168,7 +167,7 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">All</Link>
+            <Link to="/allgames">All</Link>
           </li>
           <li
             onClick={() => {
@@ -267,15 +266,13 @@ function Navbar() {
             )}
           </li>
 
-          <button className={classes.LogOutBtn}>
-            <Link
-              onClick={() => {
-                localStorage.removeItem("userToken");
-              }}
-              className={classes.logout}
-            >
-              Log out
-            </Link>
+          <button
+            onClick={() => {
+              logOutHandler();
+            }}
+            className={classes.LogOutBtn}
+          >
+            Log out
           </button>
         </ul>
       ) : (
