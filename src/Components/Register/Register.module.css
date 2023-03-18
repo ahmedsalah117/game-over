@@ -1,0 +1,199 @@
+.RegisterSection {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+  -webkit-box-shadow: 0px 10px 39px -18px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 10px 39px -18px rgba(0, 0, 0, 0.76);
+  box-shadow: 0px 10px 39px -18px rgba(0, 0, 0, 0.76);
+}
+
+.RegisterImageContainer {
+  width: 50%;
+  background-image: url(../../Assets/Images/gaming.ebaf2ffc84f4451d.jpg);
+}
+
+.RegisterImage {
+  width: 100%;
+}
+
+.RegisterFormHolder {
+  background-color: #32383e;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.RegisterFormHolder h2 {
+  margin-top: 3rem;
+  padding: 1.5rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 2.9rem;
+  color: #aaaaaa;
+}
+
+.RegisterForm {
+  /* background-color: burlywood; */
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.RegisterForm hr {
+  width: 97%;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: #6c757d;
+  height: 1px;
+  border: none;
+}
+
+.RegisterForm input {
+  display: block;
+  /* margin: auto; */
+  margin-top: 1.5rem;
+  width: 95%;
+  font-size: 1.6rem;
+  padding: 1rem 0.8rem;
+  border-radius: 5px;
+  border-style: solid;
+  border: none;
+  background-color: #1c1e22;
+  color: #fff;
+}
+
+.RegisterForm input:focus {
+  outline: #4799eb solid 1.5px;
+}
+
+.RegisterFormBtn {
+  width: 97%;
+  background-color: #3a3f44;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.RegisterFormBtn:hover {
+  background-color: #4799eb;
+}
+
+.RegisterFormBtn:focus {
+  outline: #4799eb solid 1.5px;
+  border: none;
+}
+
+.forgotPassword {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.forgotPassword a {
+  text-decoration: none;
+  color: #4799eb;
+}
+
+.forgotPassword p:not(:last-child) {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.name {
+  width: 45% !important;
+  background-color: #1c1e22;
+}
+
+.privacy {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  color: #6c757d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 1rem;
+}
+
+.privacy a {
+  color: #6c757d;
+}
+
+.member {
+  color: #aaaaaa;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+}
+
+.NameRegisterError {
+  width: 47.5%;
+  background-color: rgb(223, 128, 128);
+  padding: 3px;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  border: 1px solid rgb(223, 128, 128);
+  border-radius: 5px;
+}
+
+.ErrorContainer {
+  width: 97%;
+  /* background-color: #4799eb; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.OtherRegisterError {
+  width: 100%;
+  background-color: rgb(223, 128, 128);
+  padding: 3px;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  border: 1px solid rgb(223, 128, 128);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .RegisterImageContainer {
+    display: none;
+  }
+
+  .RegisterFormHolder {
+    background-color: #32383e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .RegisterImageContainer {
+    display: none;
+  }
+
+  .RegisterFormHolder {
+    background-color: #32383e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

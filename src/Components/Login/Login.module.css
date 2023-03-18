@@ -1,0 +1,166 @@
+.loginSection {
+  /* background-color: tomato; */
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+  -webkit-box-shadow: 0px 10px 39px -18px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 10px 39px -18px rgba(0, 0, 0, 0.76);
+  box-shadow: 0px 10px 39px -18px rgba(0, 0, 0, 0.76);
+}
+
+.loginImageContainer {
+  width: 50%;
+  background-image: url(../../Assets/Images/gaming.ebaf2ffc84f4451d.jpg);
+}
+
+.loginImage {
+  width: 100%;
+}
+
+.loginFormHolder {
+  background-color: #32383e;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formImageContainer {
+  /* background-color: tomato; */
+  width: 100%;
+  padding-top: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+.formImageContainer img {
+  width: 15%;
+}
+
+.loginFormHolder h2 {
+  /* background-color: blueviolet; */
+  padding: 1.5rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 2.9rem;
+  color: #aaaaaa;
+}
+
+.loginForm {
+  /* background-color: burlywood; */
+  margin-top: 1rem;
+}
+
+.loginForm hr {
+  width: 72%;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: #6c757d;
+  height: 1px;
+  border: none;
+}
+
+.loginForm input {
+  display: block;
+  margin: auto;
+  /* margin-bottom: 1.5rem; */
+  width: 70%;
+  font-size: 1.6rem;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  border-style: solid;
+  border: none;
+}
+
+.loginForm input:nth-child(2) {
+  margin-top: 1.5rem;
+}
+
+.loginForm input:focus {
+  outline: 3px inset #4799eb;
+}
+
+.loginFormBtn {
+  width: 72%;
+  background-color: #3a3f44;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.loginFormBtn:hover {
+  background-color: #4799eb;
+}
+
+.loginFormBtn:focus {
+  outline: #4799eb solid 1.5px;
+  border: none;
+}
+
+.forgotPassword {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.forgotPassword a {
+  text-decoration: none;
+  color: #4799eb;
+}
+
+.forgotPassword p:not(:last-child) {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.loginError {
+  width: 70%;
+  background-color: rgb(223, 128, 128);
+  padding: 3px;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  border: 1px solid rgb(223, 128, 128);
+  border-radius: 5px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 576px) {
+  .loginImageContainer {
+    display: none;
+  }
+
+  .loginFormHolder {
+    background-color: #32383e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .loginImageContainer {
+    display: none;
+  }
+
+  .loginFormHolder {
+    background-color: #32383e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
